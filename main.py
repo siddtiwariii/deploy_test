@@ -1,7 +1,11 @@
 import dash
 from dash import dcc,html,callback,Output,Input,State
 
+
+
 app = dash.Dash(__name__)
+
+server=app.server
 
 # Sample list of image URLs
 image_urls = [
