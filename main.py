@@ -20,7 +20,7 @@ image=html.Div([
     ])
 
 app.layout = html.Div([
-    html.H1("Display Images from a List"),
+    html.H1("Aryan kids:"),
     html.Button('Click Me', id='my-input'),
     html.Div(id="my-output")
 
